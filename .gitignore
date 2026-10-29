@@ -1,0 +1,22 @@
+# Installed packages
+node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+backend/dist/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Logs and local editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Older/manual project copies
+github/
